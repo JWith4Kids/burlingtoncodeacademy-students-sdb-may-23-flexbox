@@ -80,4 +80,40 @@ div {
 
 .order-of-specificity {
     background-color: blue;
+}.parent-container {
+    background-color: beige;
+    border: 2px solid black;
+    width: 75vw;
+    height: 75vh;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child {
+    padding: 25px;
+}
+
+.child1 {
+    border: 2px solid red;
+    background-color: red;
+}
+
+.child2 {
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+}
+
+.child3 {
+    border: 2px solid green;
+    background-color: green;
+}
+
+.child4 {
+    border: 2px solid teal;
+    background-color: teal;
+}
+
+.child5 {
+    border: 2px solid gray;
+    background-color: gray;
 }
